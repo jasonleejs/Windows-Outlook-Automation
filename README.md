@@ -1,1 +1,1 @@
-"Windows Outlook Automation" 
+# Windows Outlook Automation
