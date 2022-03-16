@@ -1,7 +1,6 @@
-from turtle import down
-import win32com.client
 import os
 import datetime
+import win32com.client
 
 def save_attachments(save_path, subject=None, sender=None, date=None, save_types=None, avoid_types=None):
     download_count = 0
@@ -27,5 +26,5 @@ if __name__ == '__main__':
 
     save_path = r"C:\Users\jlee23\jlee23\Outlook Automations\attachments_test"
     save_path = input("Path for saving directory: ")
-    
+
     save_attachments(save_path)
